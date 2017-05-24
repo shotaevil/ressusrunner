@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_main"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp" />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <include
+            layout="@layout/basic_life_support"/>
+        <include
+            layout="@layout/login"/>
+    </LinearLayout>
+</LinearLayout>

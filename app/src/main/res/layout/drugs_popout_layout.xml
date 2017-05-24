@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/drug_popup"
+    android:layout_height="wrap_content"
+    android:background="@drawable/oval_navy_rectangle_layout"
+    android:orientation="vertical" >
+    <ListView
+        android:id="@+id/drug_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/drug_names">
+    </ListView>
+</LinearLayout>

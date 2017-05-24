@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:id="@+id/als_cycle"
+                android:layout_above="@+id/bottombar"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dark_blue_main">
+                <include layout="@layout/titlebar"/>
+                <include layout="@layout/submenu_detail_line"/>
+                <include layout="@layout/submenu_cycle_layout"/>
+                <LinearLayout
+                    android:id="@+id/letters"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/oval_submenu_bottom_layout"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lists"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/bottombar"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/navy_blue"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/sijalica"/>
+                <TextView
+                    android:id="@+id/bottombar_message"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/bottom_text"/>
+            </LinearLayout>>
+        </RelativeLayout>
+    </FrameLayout>
+    <!--<LinearLayout
+        android:id="@+id/side_menu"
+        android:layout_width="240dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/side_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Code History Settings"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>-->
+    <ListView
+        android:id="@+id/side_menu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:entries="@array/side_menu_list_items"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp"
+        android:background="@color/navy_blue"/>
+</android.support.v4.widget.DrawerLayout>

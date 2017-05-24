@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightBlue">#F1F5F8</color>
+    <color name="blue">#129FDD</color>
+    <color name="red">#DD1212</color>
+    <color name="lighter_blue">#12AAEB</color>
+    <color name="navy_blue">#3A5A74</color>
+    <color name="green">#55BAB7</color>
+    <color name="blue_main">#2B5E93</color>
+    <color name="dark_blue_main">#143456</color>
+    <color name="blue_info_bar_main">#295A8D</color>
+    <color name="table_background">#F1F5F8</color>
+    <color name="table_heading_background">#C7D2DC</color>
+    <color name="table_heading_letters_color">#8298B0</color>
+    <color name="red_end_code">#E60F0D</color>
+    <color name="green_button">#0FE930</color>
+    <color name="popout_layout_color">#2973A2</color>
+    <color name="popup_field_color">#5682B2</color>
+    <color name="submenu_color">#24466B</color>
+    <color name="submenu_cycle_color">#204F7D</color>
+    <color name="search_color">#EEF2F4</color>
+    <color name="list_heading_color">#C7D2DC</color>
+    <color name="list_subheading_letter">#6B88A0</color>
+    <color name="search_hint_color">#C2C2C2</color>
+    <color name="list_background">#F1F5F8</color>
+</resources>

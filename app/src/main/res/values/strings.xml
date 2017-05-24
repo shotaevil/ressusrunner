@@ -1,0 +1,395 @@
+<resources>
+    <string name="app_name">ResusRunner</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="basic_life_support">BASIC LIFE SUPPORT</string>
+    <string name="attention"><b>1.</b> ATTENTION</string>
+    <string name="asses_scene">Assess Scene</string>
+    <string name="asses_desc">Check the surrounding area for danger.</string>
+    <string name="check_life_signs">Check Life\nSigns</string>
+    <string name="check_life_signs_desc">Check for response or abnormal breathing.</string>
+    <string name="get_help">Get Help!</string>
+    <string name="get_help_desc">Call 911, shout for help and send for defibrilator.</string>
+    <string name="start_code">START CODE</string>
+    <string name="code_history">CODE HISTORY</string>
+    <string name="login">LOGIN</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="signin">SIGN IN</string>
+    <string name="no_account">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="signup">SIGN UP</string>
+    <string name="create_your_account">CREATE YOUR ACCOUNT</string>
+    <string name="confirm_pass">CONFIRM PASSWORD</string>
+    <string name="already_have">ALREADY HAVE ACCOUNT?</string>
+    <string name="login_here">LOGIN HERE</string>
+    <string name="begin_cpr">2. BEGIN CPR</string>
+    <string name="open_airway">Open AIRWAY, check BREATHING</string>
+    <string name="open_airway_desc">Push chin up and tilt head back. Clear any obstructions with finger seep.</string>
+    <string name="breaths">Breaths 2x</string>
+    <string name="breaths_desc">If not breathing, give 2 BREATHS that make chest rise.\nUse pocket mask or bag-valve-mask.</string>
+    <string name="pulse_question">Do you DEFINITELY feel pulse within 10 seconds?</string>
+    <string name="yes_pulse_desc">Case "YES": Give 1 breath every 5 to 6 seconds. Recheck pulse every 2 minutes.</string>
+    <string name="compression">Compression 30x</string>
+    <string name="compression_desc">Case "NO": Give cycles of 30 COMPRESSIONS and 2 BREATHS until AED/defibrilator arrives, ALS providers take over, or victim starts to move. \nPush hard and fast (100/min) and release completely. Minimize interuptions in compressions.</string>
+    <string name="pulse">3. IF NO RESPONSE, CHECK PULSE</string>
+    <string name="aed_defibrilator">4. AED/DEFIBRILATOR ARRIVES</string>
+    <string name="aed_question">Check Rhythm is it shockable?</string>
+    <string name="yes_aed_desc">Case "Shockable": Give 1 shock. Resume CPR immediately for 5 cycles.</string>
+    <string name="shockable">SHOCKABLE</string>
+    <string name="non_shockable">NON-SHOCKABLE</string>
+    <string name="non_aed_desc">Case "Non-Shockable": Resume CPR immediately for 5 cycles. Check rhythm every 5 cycles; continue until ALS providers take over or victim starts to move.</string>
+    <string name="temperature">TEMPERATURE:</string>
+    <string name="pulse_title">PULSE:</string>
+    <string name="respiration_title">RESPIRATION:</string>
+    <string name="gcs_title">GCS:</string>
+    <string name="saturations_title">SATURATIONS:</string>
+    <string name="blood_pressure_title">BLOOD PRESSURE:</string>
+    <string name="rhytm_title">RHYTHMN:</string>
+    <string name="drug_title">DRUG:</string>
+    <string name="start_cpr">START CPR</string>
+    <string name="end_cpr">END CPR</string>
+    <string name="end_code">END CODE</string>
+    <string name="check_pulse">CHECK PULSE</string>
+    <string name="shock">SHOCK</string>
+    <string name="drugs">DRUGS</string>
+    <string name="resources">RESOURCES</string>
+    <string name="airway">AIRWAY</string>
+    <string name="log">LOG</string>
+    <string name="event">EVENT</string>
+    <string name="code_time">CODE TIME</string>
+    <string name="real_time">REAL TIME</string>
+    <string name="search">SEARCH</string>
+    <string name="bottom_msg">DONT FORGET YOUR H\'S AND T\'S</string>
+    <string name="temperature_no_semicolons">TEMPERATURE</string>
+    <string name="farenheit">\u00B0F</string>
+    <string name="celsius">\u00B0C</string>
+    <string name="pulse_no_semicolons">PULSE</string>
+    <string name="respiration_no_semicolons">RESPIRATION</string>
+    <string name="gcs_no_semicolons">GCS</string>
+    <string name="saturations_no_semicolons">SATURATIONS</string>
+    <string name="blood_pressure_no_semicolons">BLOOD PRESSURE</string>
+    <string name="rhytmn_no_semicolons">RHYTMN</string>
+    <string name="drug_no_semicolons">DRUG</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="circulation">CIRCULATION</string>
+    <string name="disability">DISABILITY</string>
+    <string name="exposure">EXPOSURE</string>
+    <string name="further_interventions">FURTHER INTERVENTIONS</string>
+    <string name="breathing">BREATHING</string>
+    <string name="joules">JOULES</string>
+    <string name="rate">RATE</string>
+    <string name="mamp">mAMP</string>
+    <string name="bottom_text">Don\'t forget your Hs and Ts: Hypoxia, hypervagal, hypovolemia, hyper\/hypokalemia, hydrogen ion (academia), hypothermia, hypoglicemia, Malignant hyperthermia; Ts: Tamponade, tension pneumothorax, Trauma, Thrombosis, coronary or pulmonary embolus, QT prolongation, Toxins, pulmonary hypertension</string>
+    <string name="rhytmn_vt_vf">VT/VF</string>
+    <string name="rhytmn_pea">PEA/Asystole</string>
+    <string name="rhytmn_bradycardia">Bradycardia</string>
+    <string name="rhytmn_idioventricular">Idioventricular Junctional rhythm</string>
+    <string name="rhytmn_heart_block">Complete Heart block</string>
+    <string name="rhytmn_first_hb">1st deg HB</string>
+    <string name="rhytmn_second_block_type">2nd degree block Type1/Type2</string>
+    <string name="rhytmn_tachycardia">Tachycardia</string>
+    <string name="rhytmn_sinus">Sinus tachycardia</string>
+    <string name="rhytmn_svt">SVT</string>
+    <string name="rhytmn_svt_aberancy">SVT w/ aberrancy</string>
+    <string name="rhytmn_ventricular">Ventricular tachycardia</string>
+    <string name="rhytmn_flutter">A fib/A. Flutter</string>
+    <string name="rhytmn_stemi">STEMI/NSTEMI</string>
+    <string-array name="airway_entries">
+        <item>AIRWAY DEVICES</item>
+        <item>Bag - Mask - Ventilation (LPM)</item>
+        <item>Combitude</item>
+        <item>Endotracheal Tube</item>
+        <item>Face Mask (LPM)</item>
+        <item>Laryngeal Mask Airway</item>
+        <item>Nasal Cannula (LPM)</item>
+        <item>Nasopharyngeal Airway</item>
+        <item>Non-rebreather Mask (LPM)</item>
+        <item>Oropharrengeal Array</item>
+        <item>Venturi Mask</item>
+        <item>Video Laryngoscope</item>
+        <item>Other</item>
+        <item>LAB TESTS</item>
+        <item>ABG</item>
+        <item>Other</item>
+        <item>VENTILATOR SETTINGS</item>
+        <item>BiPAP</item>
+        <item>CPAP</item>
+        <item>Vent Mode</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="breathing_entries">
+        <item>Rest Rate (RR)</item>
+        <item>SaO2</item>
+        <item>Breath Sounds Present</item>
+        <item>TESTS</item>
+        <item>Chest X-RAY (CXR)</item>
+        <item>CT Chest (CT)</item>
+    </string-array>
+    <string-array name="circulation_entries">
+        <item>LINES</item>
+        <item>Place IV</item>
+        <item>Place IO</item>
+        <item>Place IA</item>
+        <item>Place CVL</item>
+        <item>MEDICATIONS</item>
+        <item>Administer Drug</item>
+        <item>Administer Fluids</item>
+        <item>Administer Blood and Blood Products</item>
+    </string-array>
+    <string-array name="disability_entries">
+        <item>GCS</item>
+        <item>Eye Response</item>
+        <item>Verbal Response</item>
+        <item>Motor Response</item>
+        <item>Output</item>
+        <item>AVPU</item>
+        <item>Select...</item>
+        <item>EYES</item>
+        <item>Pupils</item>
+        <item>Eye Movement</item>
+        <item>REFLEXES</item>
+        <item>Gag Reflex</item>
+        <item>Other Reflexes</item>
+        <item>COMA &amp; SEIZURE</item>
+        <item>Coma</item>
+        <item>Seizure</item>
+    </string-array>
+    <string-array name="exposure_entries">
+        <item>Scalp</item>
+        <item>HEENT</item>
+        <item>C-Spine</item>
+        <item>Chest</item>
+        <item>Abdomen</item>
+        <item>Pelvis</item>
+        <item>GU</item>
+        <item>Upper Extermities</item>
+        <item>Lower Extermities</item>
+        <item>Back</item>
+        <item>Anal Wink \/ Clench Buttocks</item>
+    </string-array>
+    <string-array name="further_intervensions_entries">
+        <item>Place Foley</item>
+        <item>Place Nasogastric Tube</item>
+    </string-array>
+    <string-array name="drug_names">
+        <item>Adenosine</item>
+        <item>Alteplase</item>
+        <item>Amiodarone</item>
+        <item>Atropine</item>
+        <item>Calcium Chloride</item>
+        <item>Calcium gluconate</item>
+        <item>Cisatracurium (Nimbex)</item>
+        <item>Clexane</item>
+        <item>Clopidogrel</item>
+        <item>Diazepam</item>
+        <item>Digoxin</item>
+        <item>Diltiazem</item>
+        <item>Dobutamine</item>
+        <item>Dopamine</item>
+        <item>Epinephrine</item>
+        <item>Eptifibatide</item>
+        <item>Esmolol</item>
+        <item>Etomidate</item>
+        <item>Fentanyl (IM, IV)</item>
+        <item>Flumazenil</item>
+        <item>Fosphenytoin(IV/IM)</item>
+        <item>Glucagon</item>
+        <item>Hydrocortisone</item>
+        <item>Ibutilide</item>
+        <item>Inamrinone</item>
+        <item>Isoproterenol</item>
+        <item>Ketamine</item>
+        <item>Labetolol</item>
+        <item>Lidocaine</item>
+        <item>Lorazepam (IV/IO/buccal/PR)</item>
+        <item>Magnesium</item>
+        <item>Mannitol</item>
+        <item>Metoprolol</item>
+        <item>Midazolam</item>
+        <item>Naloxone</item>
+        <item>Nicardipine</item>
+        <item>Sodium nitroprusside </item>
+        <item>Norepinephrine</item>
+        <item>Pancuronium</item>
+        <item>Paraldehyde‡ (PR)</item>
+        <item>Phenobarbital† IV/IO</item>
+        <item>Phenylephrine</item>
+        <item>Phenytoin* (IV)</item>
+        <item>Prednisone</item>
+        <item>Procainamide</item>
+        <item>Propofol</item>
+        <item>Propofol</item>
+        <item>Reteplase</item>
+        <item>Reteplase</item>
+        <item>Rocuronium</item>
+        <item>Succinylcholine</item>
+        <item>Tenecteplase</item>
+        <item>Vasopressin</item>
+        <item>Vecuronium(Norcuron®)</item>
+        <item>Verapamil</item>
+        <item>Potassium (KCL)</item>
+        <item>Bicarbonate 1.26%</item>
+        <item>Bicarbonate 8.4%</item>
+    </string-array>
+    <string-array formatted="false" name="rosc_comments" >
+        <item>2nd 12mg dose may be given if needed in 1–2 minutes. Max cumulative dose: 30 mg.</item>
+        <item>0.75mg/kg over 30mins (50mg max), 0.5mg/kg (35mg max) over 60 mins, 100mg for MASSIVE PE, Acute ischemic stroke: Alteplase within 3–4.5 hrs of sx onset. 0.9mg/kg IV (&lt;=90mg, 10% over 1min then remainder over 60mins</item>
+        <item>May repeat 150 mg IV x 1. 150mg/100 ml D5W IV over 10 min. Repeat if necessary. Drip: 1 mg/min x 6 hrs, then 0.5 mg/min x 18 hrs.(900mg/500 ml D5W)</item>
+        <item>May repeat q3–5min as needed up to  max cumulative dose of 3 mg.</item>
+        <item>-</item>
+        <item>-</item>
+        <item>followed by infusion at 1–3 mcg/kg/min (0.06–0.18 mg/kg/hour) and adjust rate accordingly, 100 mg/250 mL D5W or NS.</item>
+        <item>-</item>
+        <item>75mg daily dose</item>
+        <item>5 mg (&lt;5y), 10mg (&gt;5y)</item>
+        <item>PO: 10–15mcg/kg is total loading dose. Give 50% of loading dose then 25% q6–8h</item>
+        <item>-</item>
+        <item>Concentrations: 250mcg/500ml, 1mg/ml (250mg/250ml2mg/ml( 500mg/250ml)</item>
+        <item>Drip: 400mg/250ml (ml/hr)=(wt) x (mcg/min)  x 0.0375, increase by 1–4mcg/kg/min at 10–30mins intervals</item>
+        <item>Drip: 0.1–0.5 mcg/kg/min (2–10mcg/kg/min), 2–2.5mg  ETT</item>
+        <item>Rpt in 10m with 1mcg/kg/min infusion started with first bolus. Cr b/n 2–4) 2 mcg/kg/min Cr &gt;2</item>
+        <item>followed by 50 mcg/kg/min; if response is inadequate, repeat load, f/b 100 mcg/kg/min. Max rate of 300 mcg/kg/min.</item>
+        <item>-</item>
+        <item>-</item>
+        <item>repeat every minute x 5 doses as needed.</item>
+        <item>-</item>
+        <item>Bolus 2mg, Drip 5mg/100ml Dextrose</item>
+        <item>-</item>
+        <item>-</item>
+        <item>max daily dose 10mg/kg/d</item>
+        <item>-</item>
+        <item>infusion rate &lt;0.5mg/kg/min</item>
+        <item>-</item>
+        <item>Drip: 1–4 mg/min. 1 gram/250 ml (ml/hr) = mg/min x 15</item>
+        <item>Infusion &lt;2mg/min, repeat q5minx 2,For PR route, dilute injection to 2 mg/mL in D5W or NS, Use sublingual tablets for buccal route</item>
+        <item>Polymorphic VT: 1–2 grams/50–100ml D5W over 15 min.</item>
+        <item>Beware of rebound ICH after 12h</item>
+        <item>-</item>
+        <item>5 mg/nostril</item>
+        <item>Infusion 2–20mcg/kg/hr</item>
+        <item>titrate to max of 15mg/h by 2.5mg/h increments every 5 minutes</item>
+        <item>titrate to desired blood pressure</item>
+        <item>Drip: 4 mg/250ml (ml/hr) = (wt) x (mcg/min) x 3.75</item>
+        <item>Maintenance infusion 0.05–0.1mg/kg/hr, 10mg in 100ml of crystalloid</item>
+        <item>-</item>
+        <item>1000 mg max, 1 mg/kg/min infusion over 20mins in N/S or D5W</item>
+        <item>-</item>
+        <item>Must be given in non-glucose containing solution</item>
+        <item>1mg/kg/d</item>
+        <item>Max cumulative dose: 17 mg/kg,.. Alt: 100mg q5min until arrhythmia is controlled or side effects listed. </item>
+        <item>-</item>
+        <item>Drip 5–50mcg/kg/min of 10mg/ml soln</item>
+        <item>Give w/ heparin or enoxaparin (see institutional protocol</item>
+        <item>Maintenance 0.1–0.2mg/kg - start 20mins after initial then every 20mins</item>
+        <item>-</item>
+        <item>Give w/ heparin or enoxaparin (see institutional protocol)</item>
+        <item>0.01–0.03 units/min. Drip: 40 units/100ml NS</item>
+        <item>f/b cont IV infusion 0.8–1.7 mcg/kg/min (0.048–0.102 mg/kg/hr)</item>
+        <item>may repeat 5 to 10 mg q15–30 min to total dose of 20–30 mg</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array formatted="false" name="standard_dose">
+        <item>6mg rapid iv, may repeat after 1–2 min 12mg rapid IV</item>
+        <item>15mg bolus (see institutional protocol)</item>
+        <item>300mg IV over 1–2 seconds</item>
+        <item>0.5 mg(0.6mg in AU/NZ) rapid IV. </item>
+        <item>5–10 ml (0.5–1 gm) over 2–5min</item>
+        <item>5–30 ml over 2 to 5 minutes.</item>
+        <item> Loading dose: 0.1 to 0.2 mg/kg IV</item>
+        <item>1mg/kg IV, SC</item>
+        <item>600mg, 300mg loading dose (per institution)</item>
+        <item>0.3 mg\/kg over 2mins IV, 0.5 mg/kg PR-20mg max</item>
+        <item>8 to 12 mcg/kg is the total loading dose, give 50% IV over 5 min, then 25% of dose x2 at 4–8hr intervals</item>
+        <item>15 to 20 mg (0.25 mg/kg) IV over 2 minutes; additional 20 to 25 mg (0.35 mg/kg) IV in 15 minutes if needed; 5 to 15 mg/hour IV maintenance infusion (titrated to AF heart rate if given for rate control)</item>
+        <item>2–10mcg/kg/min</item>
+        <item>Initiate at 0.5–1mcg/kg/min initially, 2 – 10 mcg/kg/min. Max 40mcg/kg/min</item>
+        <item>1 mg q3–5 min.</item>
+        <item>180mcg/kg bolus</item>
+        <item>500 mcg/kg (0.5 mg/kg) IV over 1 min,</item>
+        <item>Procedural sedation (unlabeled use): I.V.: Initial: 0.1–0.2 mg/kg, followed by 0.05 mg/kg q3–5 min prn. Other: 0.2–0.6 mg/kg IV over 30–60 sec for induction, Peak effect: 1 min. Duration: 3–5 min.</item>
+        <item>Pain management: Adults: Bolus at start of infusion: 1\–2 mcg/kg or 25–100 mcg/dose; continuous infusion rate: 1\–2 mcg\/kg\/hour or 25\–200 mcg\/hour. Severe: I.M, I.V.: 50\–100 mcg/dose every 1\-2 hours as needed; patients with prior opioid exposure may tolerate higher initial doses</item>
+        <item>0.01mg/kg</item>
+        <item>20 mg/kg phenytoin equivalents IV over 5–10mins (Max 1000mg)</item>
+        <item>1–5mg/h, Drip 0.05mg/ml</item>
+        <item>Status asthmaticus:  1–2 mg/kg IV q6hr initially for 24 hours; maintenance: 0.5–1 mg/kg q6hr, Acute adrenal Insufficiency:  100 mg IV bolus, then 300 mg/day IV divided q8hr or administered by continuous infusion for 48 hours</item>
+        <item>&lt;60 kg: 0.01 mg/kg (0.1 mL/kg) IV infusion repeat after 10 minutes PRN , &gt;60 kg: 1 mg (one vial) IV infusion, repeat after 10 minutes PRN</item>
+        <item>0.75 mg/kg IV load, 5–10mcg/kg/min</item>
+        <item>5–20mcg/kg/min</item>
+        <item>1–4mg/kg induction, sedation 1–2mg/kgIV or 2–4mg/kg IM</item>
+        <item>1–4mg/min</item>
+        <item>1 – 1.5 mg/kg over 2–3 min, then may repeat 0.5–0.75 mg/kg in 5–10 min. Max: 3 mg/kg.</item>
+        <item>0.1 mg/kg over 1 min (Max 4mg)</item>
+        <item>VT/VF: 1–2 grams/ 10ml D5W over 2–5 minutes.</item>
+        <item>0.25–2g/kg over 20–60 mins</item>
+        <item>5 mg over 1 to 2 min repeat as needed q5min to max dose of 15 mg</item>
+        <item>IV:0.1 mg/kg, iM/IN:0.2 mg/kg: Buccal: 0.5mg/kg (10mg max)</item>
+        <item>0.2–2mg/dose 2–5mins, max 10mg</item>
+        <item>5mg/h IV infusion</item>
+        <item>0.5 mcg/kg/min IV</item>
+        <item>0.1 – 0.5 mcg/kg/min</item>
+        <item>0.04–0.1mg/kg, maintenance dose 0.01mg/kg</item>
+        <item>400 mg (0.4 mL/kg/dose)</item>
+        <item>20 mg/kg</item>
+        <item>Shock/hypotension: I.V. bolus: 100–500 mcg/dose q 10–15min prn as needed I.V. infusion: Ini dose: 100–180 mcg/min, or alt 0.5 mcg/kg/min; titrate. Dosing ranges between 0.4–9.1 mcg/kg/min.</item>
+        <item>20 mg/kg IV over 20mins, infusion 1mg/kg/min, 1000 mg max</item>
+        <item>40–100mg</item>
+        <item>25–50 mg/min until arrhymia suppressed or hypotensive or QRS prolonged by 50%</item>
+        <item>Induction: Healthy adults &lt;55 yrs: I.V.: 2–2.5 mg/kg (~40 mg q10 sec). [Elderly, debilitated: 1–1.5 mg/kg (~20 mg q10 sec). ICU sedation: 5 mcg/kg/min ( 0.3 mg/kg/hour); inc by 5–10 mcg/kg/min (or 0.3–0.6 mg/kg/hour) q5–10 min desired sedation. usu maint: 5–50 mcg/kg/min (or 0.3–3 mg/kg/hr)</item>
+        <item>Bolus 1–2mg/kg, &gt;40mg, repeat in aliquots q10s</item>
+        <item>10 Unit bolus, rpt after 30mins, max 20units</item>
+        <item>0.6–1.2mg/kg</item>
+        <item>Duration: I.V.: 4–6 minutes. I.V.: Intubation: 0.6 mg/kg (range: 0.3–1.1 mg/kg).</item>
+        <item>30–50 mg IV bolus over 5 sec once (based on weight), &lt;60 kg: 30 mg, 60–70 kg: 35 mg, 70–80 kg: 40 mg, 80–90 kg: 45 mg, &gt;90 kg: 50 mg</item>
+        <item>40 units IV x 1</item>
+        <item>Ini bolus dose: 0.08–0.1 mg/kg,</item>
+        <item>2.5 to 5 mg IV over 2 minutes</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="blood_and_blood_products">
+        <item>Whole Blood</item>
+        <item>Packed Red Blood Cells</item>
+        <item>Platelets</item>
+        <item>Fresh Frozen Plasma (FFP)</item>
+    </string-array>
+    <string-array formatted="false" name="types_of_iv_fluids_crystalloids">
+        <item>1/4N/S (0.25N/S)</item>
+        <item>1/3N/S (0.33N/S)</item>
+        <item>½ NS (0.45NS)</item>
+        <item>Normal Saline (0.9NS, N/S)</item>
+        <item>Hypertonic saline (3%NS)</item>
+        <item>Plasmalyte</item>
+        <item>3.3% Dextrose / 0.3% saline</item>
+        <item>2/3D &amp; 1/3S</item>
+        <item>Dextrose 5% (D5@W, D5)</item>
+        <item>Dextrose 5% 0.9%NS (D5NS)</item>
+        <item>Dextrose5% 0.45N/S (D5 ½ NS)</item>
+        <item>Dextrose 10%</item>
+        <item>Dextrose 20%</item>
+        <item>Dextrose 50%</item>
+        <item>Hartmans</item>
+        <item>Lactated Ringers (LR)</item>
+        <item>Dextrose w/ Lactated Ringers (D5LR)</item>
+    </string-array>
+    <string-array name="types_of_iv_fluids_colloids">
+        <item>Hetastarch</item>
+        <item>Gelofusine</item>
+        <item>Polygeline</item>
+        <item>Dextran 40%</item>
+        <item>Dextran 70%</item>
+        <item>Albumin</item>
+        <item>Mannitol 20%</item>
+    </string-array>
+    <string-array name="side_menu_list_items">
+        <item>BASIC LIFE SUPPORT</item>
+        <item>MANUAL</item>
+        <item>CONTACT</item>
+        <item>EXIT</item>
+    </string-array>
+</resources>
